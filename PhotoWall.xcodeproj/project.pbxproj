@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3A2C9F1C92787C004D580A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A2C9E1C92787C004D580A /* UIImage+Color.m */; };
 		ED3B8FB21C895C5F007DCA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B8FB11C895C5F007DCA33 /* main.m */; };
 		ED3B8FB51C895C5F007DCA33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B8FB41C895C5F007DCA33 /* AppDelegate.m */; };
 		ED3B8FB81C895C5F007DCA33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B8FB71C895C5F007DCA33 /* ViewController.m */; };
 		ED3B8FBB1C895C5F007DCA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3B8FB91C895C5F007DCA33 /* Main.storyboard */; };
 		ED3B8FBD1C895C5F007DCA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3B8FBC1C895C5F007DCA33 /* Assets.xcassets */; };
 		ED3B8FC01C895C5F007DCA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3B8FBE1C895C5F007DCA33 /* LaunchScreen.storyboard */; };
+		ED3B8FCB1C895D20007DCA33 /* GGPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B8FCA1C895D20007DCA33 /* GGPhotoItem.m */; };
+		ED3B8FCF1C895D48007DCA33 /* GGImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B8FCD1C895D48007DCA33 /* GGImagesTableViewCell.m */; };
+		ED3B8FD01C895D48007DCA33 /* GGImagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3B8FCE1C895D48007DCA33 /* GGImagesTableViewCell.xib */; };
+		ED3B8FD31C8966F3007DCA33 /* GGImagesTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B8FD21C8966F3007DCA33 /* GGImagesTableViewCellViewModel.m */; };
+		ED3B8FD51C896810007DCA33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3B8FD41C896810007DCA33 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3A2C9D1C92787C004D580A /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		ED3A2C9E1C92787C004D580A /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		ED3B8FAD1C895C5F007DCA33 /* PhotoWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3B8FB11C895C5F007DCA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED3B8FB31C895C5F007DCA33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,14 @@
 		ED3B8FBC1C895C5F007DCA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3B8FBF1C895C5F007DCA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3B8FC11C895C5F007DCA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3B8FC91C895D20007DCA33 /* GGPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGPhotoItem.h; path = model/GGPhotoItem.h; sourceTree = "<group>"; };
+		ED3B8FCA1C895D20007DCA33 /* GGPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGPhotoItem.m; path = model/GGPhotoItem.m; sourceTree = "<group>"; };
+		ED3B8FCC1C895D48007DCA33 /* GGImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGImagesTableViewCell.h; path = cell/GGImagesTableViewCell.h; sourceTree = "<group>"; };
+		ED3B8FCD1C895D48007DCA33 /* GGImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGImagesTableViewCell.m; path = cell/GGImagesTableViewCell.m; sourceTree = "<group>"; };
+		ED3B8FCE1C895D48007DCA33 /* GGImagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GGImagesTableViewCell.xib; path = cell/GGImagesTableViewCell.xib; sourceTree = "<group>"; };
+		ED3B8FD11C8966F3007DCA33 /* GGImagesTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGImagesTableViewCellViewModel.h; path = cell/GGImagesTableViewCellViewModel.h; sourceTree = "<group>"; };
+		ED3B8FD21C8966F3007DCA33 /* GGImagesTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGImagesTableViewCellViewModel.m; path = cell/GGImagesTableViewCellViewModel.m; sourceTree = "<group>"; };
+		ED3B8FD41C896810007DCA33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +49,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3B8FD51C896810007DCA33 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED3A2C9C1C92786C004D580A /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A2C9D1C92787C004D580A /* UIImage+Color.h */,
+				ED3A2C9E1C92787C004D580A /* UIImage+Color.m */,
+			);
+			name = ext;
+			sourceTree = "<group>";
+		};
 		ED3B8FA41C895C5F007DCA33 = {
 			isa = PBXGroup;
 			children = (
+				ED3B8FD41C896810007DCA33 /* CoreGraphics.framework */,
 				ED3B8FAF1C895C5F007DCA33 /* PhotoWall */,
 				ED3B8FAE1C895C5F007DCA33 /* Products */,
 			);
@@ -58,6 +85,9 @@
 		ED3B8FAF1C895C5F007DCA33 /* PhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				ED3A2C9C1C92786C004D580A /* ext */,
+				ED3B8FC81C895D0B007DCA33 /* model */,
+				ED3B8FC71C895CD8007DCA33 /* cell */,
 				ED3B8FB31C895C5F007DCA33 /* AppDelegate.h */,
 				ED3B8FB41C895C5F007DCA33 /* AppDelegate.m */,
 				ED3B8FB61C895C5F007DCA33 /* ViewController.h */,
@@ -77,6 +107,27 @@
 				ED3B8FB11C895C5F007DCA33 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3B8FC71C895CD8007DCA33 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED3B8FCC1C895D48007DCA33 /* GGImagesTableViewCell.h */,
+				ED3B8FCD1C895D48007DCA33 /* GGImagesTableViewCell.m */,
+				ED3B8FCE1C895D48007DCA33 /* GGImagesTableViewCell.xib */,
+				ED3B8FD11C8966F3007DCA33 /* GGImagesTableViewCellViewModel.h */,
+				ED3B8FD21C8966F3007DCA33 /* GGImagesTableViewCellViewModel.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		ED3B8FC81C895D0B007DCA33 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ED3B8FC91C895D20007DCA33 /* GGPhotoItem.h */,
+				ED3B8FCA1C895D20007DCA33 /* GGPhotoItem.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3B8FC01C895C5F007DCA33 /* LaunchScreen.storyboard in Resources */,
+				ED3B8FD01C895D48007DCA33 /* GGImagesTableViewCell.xib in Resources */,
 				ED3B8FBD1C895C5F007DCA33 /* Assets.xcassets in Resources */,
 				ED3B8FBB1C895C5F007DCA33 /* Main.storyboard in Resources */,
 			);
@@ -149,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3B8FD31C8966F3007DCA33 /* GGImagesTableViewCellViewModel.m in Sources */,
 				ED3B8FB81C895C5F007DCA33 /* ViewController.m in Sources */,
+				ED3A2C9F1C92787C004D580A /* UIImage+Color.m in Sources */,
+				ED3B8FCF1C895D48007DCA33 /* GGImagesTableViewCell.m in Sources */,
 				ED3B8FB51C895C5F007DCA33 /* AppDelegate.m in Sources */,
 				ED3B8FB21C895C5F007DCA33 /* main.m in Sources */,
+				ED3B8FCB1C895D20007DCA33 /* GGPhotoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +319,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wenjie lu (MGB3JZ7BR8)";
 				INFOPLIST_FILE = PhotoWall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GG.PhotoWall;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.ganguo.PhotoWall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e61edc4-b83e-4bf5-b458-5d88d60d5e06";
 			};
 			name = Debug;
 		};
@@ -274,10 +332,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wenjie lu (MGB3JZ7BR8)";
 				INFOPLIST_FILE = PhotoWall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GG.PhotoWall;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.ganguo.PhotoWall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e61edc4-b83e-4bf5-b458-5d88d60d5e06";
 			};
 			name = Release;
 		};
@@ -300,6 +360,7 @@
 				ED3B8FC61C895C5F007DCA33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
